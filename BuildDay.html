@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mithilesh's Portfolio</title>
+
+
+    <style>
+        body{
+            background-color: rgb(186, 235, 245);
+        }
+header{
+    background-color: hsla(211, 60%, 69%, 0.886);
+    padding: 20px;
+    text-align: center;
+    color: rgb(65, 61, 61);
+}
+nav{
+display: flex;
+justify-content: center;
+gap:40px;
+background-color: rgb(77, 194, 218);
+
+}
+.navelement:hover{
+  color: rgb(69, 67, 231);
+}
+
+section{
+    padding: 20px;
+    text-align: center;
+}
+
+
+.profile-image {
+            width: 150px;
+            height: 150px;
+            border: 2px solid rgb(80, 203, 224);
+            border-radius: 50%;
+            box-shadow: 2px 4px 8px rgba(12, 187, 245, 0.2);
+        }
+        .profile-image:hover{
+            width: 180px;
+            height: 180px;
+            border:2px solid rgb(0, 0, 0);
+            border-radius:40%;
+
+        }
+.about-text{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+.skills{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.card:hover{
+    background-color: rgb(137, 213, 235);
+    width:205px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+
+
+}
+.card{
+    background-color: rgb(103, 194, 222);
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+
+    
+}
+.projects{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#contact{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    padding-top: 50px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    width: 400px;
+    margin:70px;
+    margin-left: 350px;
+    
+}
+
+footer{
+    color: rgb(0, 0, 0);
+    background-color: rgb(77, 194, 218);
+    padding: 10px;
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mithilesh Chavhan</h1>
+        <p style="font-size: 20px;">Web Developer | Programmer | Student</p>
+    </header>
+<nav>
+        <a href="#home" class="navelement">Home </a>
+        <a href="#about" class="navelement">About</a>
+        <a href="#skills" class="navelement">Skills</a>
+        <a href="#projects" class="navelement">Projects</a>
+        <a href="#contact" class="navelement">Contact</a>
+</nav>
+    
+ <section class="about">
+     <h2>About Me</h2>
+<img src="image.jpeg" alt="Mithilesh's Photo" class="profile-image">
+        <P class="about-text">I Am a Student at <b>Scaler School of Technology</b> <br> I Can Create Websites Using Html & Css.</P>
+ </section>
+
+<hr style="border: 1.5px solid rgb(0, 0, 0);">
+
+ <section id="skills">
+        <h2>My Skills</h2>
+
+        <div class="skills">
+            <div class="card">
+                <h3>HTML</h3>
+                <p>Webpage structure</p>
+            </div>
+
+            <div class="card">
+                <h3>CSS</h3>
+                <p>Webpage styling</p>
+            </div>
+
+            <div class="card">
+                <h3>Java</h3>
+                <p>Programming</p>
+            </div>
+        </div>
+    </section>
+
+<hr style="border: 1.5px solid rgb(0, 0, 0);">
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="projects">
+            <div class="card">
+                <h3>Project 1</h3>
+                <p>I made my own Portfolio Webpage Using Html & Css</p>
+            </div>
+
+            <div class="card">
+                <h3>Project 2</h3>
+                <p>I made An simple Webpage Using all things I learnt In Css for styling</p>
+            </div>
+
+            <div class="card">
+                <h3>Project 3</h3>
+                <p>I Styled My Hackathon Project(PeerPulse) Using Css</p>
+            </div>
+        </div>
+    </section>
+    <hr style="border: 1.5px solid rgb(0, 0, 0);">
+    <section id="contact">
+<h2>Contact Me</h2>
+<form>
+ <label for="name">Name:</label>
+ <input type="text" placeholder="Enter your name" required><br><br>
+
+ <label for="email">Email:</label>
+ <input type="email" placeholder="Enter your email" required><br><br>
+
+  <label for="message">Message:</label>
+  <textarea placeholder="Enter your message" required></textarea><br><br>
+
+  <button type="submit">Submit Information</button>
+
+</form>
+
+
+
+    </section>
+
+
+    <footer>
+        <p>&copy; 2026 Mithilesh Chavhan</p>
+    </footer>
+</body>
+</html>
